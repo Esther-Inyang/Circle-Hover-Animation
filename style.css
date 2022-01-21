@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgba(250, 233, 3, 0.349);
+}
+
+.circle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;       /*To perfectly center horizontally*/
+} 
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    font-weight: 600;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 255, 70);
+    text-align: center;
+    cursor: pointer;
+}
+
+/* for JavaScript */
+.hover{
+    transform: scale(2);    /*makes it bounce like heartbeat*/
+}
